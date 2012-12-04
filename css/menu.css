@@ -1,0 +1,25 @@
+.menu {
+    font-size: 1.4em;
+    width: 710px;
+}
+.menu td {
+    border: 1px transparent solid;
+}
+.menu table {
+    width: 100%;
+    border-right: 2px transparent solid;
+}
+.menu .element {
+    width: 1px;
+}
+.menu td.right {
+    border-right: 1px black solid;
+
+}
+.menu td.left {
+
+}
+
+.menu .padding {
+
+}

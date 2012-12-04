@@ -1,0 +1,58 @@
+@import "menu.css";
+* {
+    margin: 0;
+    padding : 0;
+    font-size: 1em;
+    list-style: none;
+    border: none;
+    border-collapse: collapse;
+}
+
+html {
+    font-size: 100.01%;
+    height:100%;
+}
+body {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color:black;
+    height:100%;
+}
+
+.main {
+    height : 100%;
+    width : 900px;
+    margin : 0 auto;
+    background: silver;
+}
+
+.main > article {
+    padding-bottom : 110px
+}
+
+.main > header {
+    background: #9acd32;
+    overflow: hidden;
+}
+
+.main > header .logo {
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+    float: left;
+    background: silver;
+}
+
+.menu {
+    padding: 40px 0 0 190px;
+}
+
+.main + footer {
+    height: 100px;
+    margin : -100px auto 0;
+    background: green;
+    width : 900px;
+}
+
+
